@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Translator</string>
+
+    <string-array name="spiner1">
+        <item>English</item>
+        <item>Sinhala</item>
+        <item>Tamil</item>
+    </string-array>
+
+    <string-array name="spiner2">
+        <item>Sinhala</item>
+        <item>English</item>
+        <item>Tamil</item>
+    </string-array>
+</resources>
