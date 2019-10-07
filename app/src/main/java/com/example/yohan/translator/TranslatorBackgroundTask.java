@@ -34,7 +34,7 @@ public class TranslatorBackgroundTask extends AsyncTask<String, Void, String> {
 
         try {
             //Set up the translation call URL
-            String yandexKey = "trnsl.1.1.20191006T125811Z.4097f8efb295c0b8.78634a22ec40dae9329546d7513682c137eb87ca";
+            String yandexKey = "";
             String yandexUrl = "https://translate.yandex.net/api/v1.5/tr.json/translate?key=" + yandexKey
                     + "&text=" + textToBeTranslated + "&lang=" + languagePair;
             String s = "https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20191006T125811Z.4097f8efb295c0b8.78634a22ec40dae9329546d7513682c137eb87ca&text=Hello&lang=en-si";
